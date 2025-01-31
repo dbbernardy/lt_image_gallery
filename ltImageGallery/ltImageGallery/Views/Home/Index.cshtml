@@ -11,7 +11,7 @@
 {
     <form method="get" asp-controller="Images" asp-action="PhotoGrid" id="searchForm">
         <div class="input-group mb-3">
-            <input type="text" id="searchValue" name="searchValue" class="form-control" placeholder="Search Photos" aria-label="Search Photos" aria-describedby="basic-addon2" pattern="[A-Za-z0-9]+" title="Only letters and numbers allowed">
+            <input type="text" id="searchValue" name="searchValue" class="form-control" placeholder="Search Photos" aria-label="Search Photos" aria-describedby="basic-addon2" pattern="[A-Za-z0-9]+" required title="Only letters and numbers allowed">
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary" type="submit">Search</button>
             </div>
