@@ -1,0 +1,32 @@
+# Ignore build files
+bin/
+obj/
+out/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.vcxproj.user
+*.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore environment and configuration secrets
+.env
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore dependency caching
+packages/
+node_modules/
+
+# Ignore compiled DLLs
+*.dll
+*.exe
+
+# Ignore JetBrains Rider & Visual Studio Code settings
+.idea/
+.vscode/
+.vs/
